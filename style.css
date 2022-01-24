@@ -185,10 +185,7 @@ ul, li {
     0%{
         transform:translateX(0) ;
     } 
-    50%{
-        font-size: 33px;
-        color: red;
-    }
+   
     100%{
         transform: translateX(500px);
     }
@@ -209,6 +206,7 @@ ul, li {
 .poem__title {
     margin-top: 0;
     text-align: center;
+    animate__bounceIn
 }
 
 .poem__list {
